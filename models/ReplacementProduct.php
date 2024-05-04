@@ -3,10 +3,12 @@
 namespace app\models;
 use yii\db\ActiveRecord;
 
-use Yii;
-use yii\base\Model;
-
 
 class ReplacementProduct extends ActiveRecord 
 {
+
+    public static function tableName()
+     {
+         return 'replacement_product';
+     }
 }

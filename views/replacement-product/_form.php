@@ -14,9 +14,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id')->textInput() ?>
 
-    <?= $form->field($model, 'deletet_id')->textInput() ?>
+    <?= $form->field($model, 'deleted_id')->textInput() ?>
 
-    <?= $form->field($model, 'replace_id')->textInput() ?>
+    <?= $form->field($model, 'replaced_id')->textInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

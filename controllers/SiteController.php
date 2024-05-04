@@ -62,7 +62,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         if (!Yii::$app->user->isGuest) {
-            return $this->render('@app/views/dashboard/index.php');
+            return $this->redirect('http://localhost:8080/index.php?r=replacement-product%2Findex');
         }
         return $this->render('index');
         
